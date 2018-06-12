@@ -13,6 +13,7 @@
 		05EF63141F5EE17400B56C37 /* ShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF63121F5EE17400B56C37 /* ShareCell.swift */; };
 		05EF63151F5EE17400B56C37 /* ShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05EF63131F5EE17400B56C37 /* ShareCell.xib */; };
 		108CE8861F6C0E8900893CE5 /* VegaScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108CE8851F6C0E8900893CE5 /* VegaScrollFlowLayout.swift */; };
+		4E958CFB2D9001AAE421745A /* Pods_VegaScrollFlowLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A68DAD984F45AB284A05D92 /* Pods_VegaScrollFlowLayout_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* FeedViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -28,6 +29,7 @@
 		05EF63131F5EE17400B56C37 /* ShareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareCell.xib; sourceTree = "<group>"; };
 		108CE8851F6C0E8900893CE5 /* VegaScrollFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VegaScrollFlowLayout.swift; path = ../VegaScroll/Classes/VegaScrollFlowLayout.swift; sourceTree = "<group>"; };
 		3B91B79CE7C9E051002B5554 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A68DAD984F45AB284A05D92 /* Pods_VegaScrollFlowLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VegaScrollFlowLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5F79C3C50E34AA2F53C693 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* VegaScrollFlowLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegaScrollFlowLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		806278951F6199C100521263 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8A17EA8D70BF1E10B1E4B625 /* VegaScrollFlowLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VegaScrollFlowLayout.podspec; path = ../VegaScrollFlowLayout.podspec; sourceTree = "<group>"; };
+		8DC56875BE9A8F5B3FC838A9 /* Pods-VegaScrollFlowLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VegaScrollFlowLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VegaScrollFlowLayout_Example/Pods-VegaScrollFlowLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9EA3691059A03915421D3B7E /* Pods-VegaScrollFlowLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VegaScrollFlowLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VegaScrollFlowLayout_Example/Pods-VegaScrollFlowLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E958CFB2D9001AAE421745A /* Pods_VegaScrollFlowLayout_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for VegaScrollFlowLayout */,
 				607FACD11AFB9204008FA782 /* Products */,
+				B2C970DC09AA45C510BD0CFE /* Pods */,
+				A610FDA361029021B5D7B41F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +168,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A610FDA361029021B5D7B41F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A68DAD984F45AB284A05D92 /* Pods_VegaScrollFlowLayout_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2C970DC09AA45C510BD0CFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC56875BE9A8F5B3FC838A9 /* Pods-VegaScrollFlowLayout_Example.debug.xcconfig */,
+				9EA3691059A03915421D3B7E /* Pods-VegaScrollFlowLayout_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout_Example" */;
 			buildPhases = (
+				E2BBD4B90F0C0803038E4FF1 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -230,6 +255,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2BBD4B90F0C0803038E4FF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VegaScrollFlowLayout_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -361,6 +407,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC56875BE9A8F5B3FC838A9 /* Pods-VegaScrollFlowLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -378,6 +425,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA3691059A03915421D3B7E /* Pods-VegaScrollFlowLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
